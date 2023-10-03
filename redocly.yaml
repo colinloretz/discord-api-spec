@@ -1,0 +1,22 @@
+# See https://redocly.com/docs/cli/configuration/ for more information.
+#
+plugins:
+  - ./oas/plugins/add-discord-tags
+
+apis:
+  discord:
+    root: specs/openapi.json
+    rules:
+      operation-4xx-response: off
+    preprocessors:
+      add-discord-tags/setup-tags: on # This adds tags to the root schema
+    decorators:
+      add-discord-tags/add-tags: on # This decorates operations with tags
+  preview:
+    root: specs/openapi_preview.json
+    rules:
+      operation-4xx-response: off
+    preprocessors:
+      add-discord-tags/setup-tags: on # This adds tags to the root schema
+    decorators:
+      add-discord-tags/add-tags: on # This decorates operations with tags
