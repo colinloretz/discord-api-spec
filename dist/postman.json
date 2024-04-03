@@ -121,7 +121,7 @@
           "OAuth",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me/connections": {
@@ -161,7 +161,7 @@
         "tags": [
           "Connection"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me/channels": {
@@ -207,7 +207,7 @@
         "tags": [
           "DM"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me/guilds": {
@@ -279,7 +279,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/@me": {
@@ -308,7 +308,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_my_application",
@@ -345,7 +345,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/gateway/bot": {
@@ -374,7 +374,7 @@
         "tags": [
           "Gateway"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/oauth2/@me": {
@@ -439,7 +439,7 @@
         "tags": [
           "OAuth"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/voice/regions": {
@@ -474,7 +474,7 @@
         "tags": [
           "Voice"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me": {
@@ -508,7 +508,7 @@
         "tags": [
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_my_user",
@@ -545,7 +545,7 @@
         "tags": [
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/stage-instances": {
@@ -624,7 +624,7 @@
         "tags": [
           "Stage"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/sticker-packs": {
@@ -654,7 +654,7 @@
         "tags": [
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/gateway": {
@@ -684,7 +684,7 @@
         "tags": [
           "Gateway"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds": {
@@ -723,7 +723,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/users/@me/threads/archived/private": {
@@ -780,7 +780,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/guilds/{guild_id}/commands/permissions": {
@@ -836,7 +836,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/guilds/{guild_id}/commands/{command_id}/permissions": {
@@ -897,7 +897,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "set_guild_application_command_permissions",
@@ -952,7 +952,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}/@me": {
@@ -1001,7 +1001,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_my_message_reaction",
@@ -1021,7 +1021,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/threads/archived/private": {
@@ -1079,7 +1079,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/threads/archived/public": {
@@ -1137,7 +1137,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me/applications/{application_id}/role-connection": {
@@ -1180,7 +1180,7 @@
           "Application",
           "Connection"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "update_application_user_role_connection",
@@ -1249,7 +1249,7 @@
           "Application",
           "Connection"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me/guilds/{guild_id}/member": {
@@ -1290,7 +1290,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/role-connections/metadata": {
@@ -1336,7 +1336,7 @@
           "Application",
           "Connection"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "update_application_role_connections_metadata",
@@ -1387,7 +1387,7 @@
           "Application",
           "Connection"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/guilds/{guild_id}/commands/{command_id}": {
@@ -1448,7 +1448,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_application_command",
@@ -1474,7 +1474,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_application_command",
@@ -1482,103 +1482,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "minLength": 1,
-                    "maxLength": 32
-                  },
-                  "name_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 32
-                    },
-                    "maxProperties": 33
-                  },
-                  "description": {
-                    "type": [
-                      "string",
-                      "null"
-                    ],
-                    "maxLength": 100
-                  },
-                  "description_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 100
-                    },
-                    "maxProperties": 33
-                  },
-                  "options": {
-                    "type": [
-                      "array",
-                      "null"
-                    ],
-                    "items": {
-                      "oneOf": [
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandChannelOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandNumberOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandRoleOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandStringOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandUserOption"
-                        }
-                      ]
-                    },
-                    "maxItems": 25
-                  },
-                  "default_member_permissions": {
-                    "type": [
-                      "integer",
-                      "null"
-                    ],
-                    "minimum": 0,
-                    "maximum": 562949953421311
-                  },
-                  "dm_permission": {
-                    "type": [
-                      "boolean",
-                      "null"
-                    ]
-                  }
-                }
+                "$ref": "#/components/schemas/ApplicationCommandPatchRequestPartial"
               }
             }
           },
@@ -1613,7 +1517,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/guilds/{guild_id}/commands": {
@@ -1681,7 +1585,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "bulk_set_guild_application_commands",
@@ -1689,123 +1593,14 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
+                "type": [
+                  "array",
+                  "null"
+                ],
                 "items": {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "oneOf": [
-                        {
-                          "type": "null"
-                        },
-                        {
-                          "$ref": "#/components/schemas/SnowflakeType"
-                        }
-                      ]
-                    },
-                    "name": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 32
-                    },
-                    "name_localizations": {
-                      "type": [
-                        "object",
-                        "null"
-                      ],
-                      "additionalProperties": {
-                        "type": "string",
-                        "minLength": 1,
-                        "maxLength": 32
-                      },
-                      "maxProperties": 33
-                    },
-                    "description": {
-                      "type": [
-                        "string",
-                        "null"
-                      ],
-                      "maxLength": 100
-                    },
-                    "description_localizations": {
-                      "type": [
-                        "object",
-                        "null"
-                      ],
-                      "additionalProperties": {
-                        "type": "string",
-                        "minLength": 1,
-                        "maxLength": 100
-                      },
-                      "maxProperties": 33
-                    },
-                    "options": {
-                      "type": [
-                        "array",
-                        "null"
-                      ],
-                      "items": {
-                        "oneOf": [
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandChannelOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandNumberOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandRoleOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandStringOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandUserOption"
-                          }
-                        ]
-                      },
-                      "maxItems": 25
-                    },
-                    "default_member_permissions": {
-                      "type": [
-                        "integer",
-                        "null"
-                      ],
-                      "minimum": 0,
-                      "maximum": 562949953421311
-                    },
-                    "dm_permission": {
-                      "type": [
-                        "boolean",
-                        "null"
-                      ]
-                    },
-                    "type": {
-                      "$ref": "#/components/schemas/ApplicationCommandApplicationCommandType"
-                    }
-                  },
-                  "required": [
-                    "name",
-                    "type"
-                  ]
-                }
+                  "$ref": "#/components/schemas/ApplicationCommandUpdateRequest"
+                },
+                "maxItems": 110
               }
             }
           },
@@ -1846,7 +1641,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_application_command",
@@ -1854,110 +1649,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "minLength": 1,
-                    "maxLength": 32
-                  },
-                  "name_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 32
-                    },
-                    "maxProperties": 33
-                  },
-                  "description": {
-                    "type": [
-                      "string",
-                      "null"
-                    ],
-                    "maxLength": 100
-                  },
-                  "description_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 100
-                    },
-                    "maxProperties": 33
-                  },
-                  "options": {
-                    "type": [
-                      "array",
-                      "null"
-                    ],
-                    "items": {
-                      "oneOf": [
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandChannelOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandNumberOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandRoleOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandStringOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandUserOption"
-                        }
-                      ]
-                    },
-                    "maxItems": 25
-                  },
-                  "default_member_permissions": {
-                    "type": [
-                      "integer",
-                      "null"
-                    ],
-                    "minimum": 0,
-                    "maximum": 562949953421311
-                  },
-                  "dm_permission": {
-                    "type": [
-                      "boolean",
-                      "null"
-                    ]
-                  },
-                  "type": {
-                    "$ref": "#/components/schemas/ApplicationCommandApplicationCommandType"
-                  }
-                },
-                "required": [
-                  "name",
-                  "type"
-                ]
+                "$ref": "#/components/schemas/ApplicationCommandCreateRequest"
               }
             }
           },
@@ -2002,7 +1694,7 @@
           "Guild",
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/thread-members/@me": {
@@ -2034,7 +1726,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "leave_thread",
@@ -2054,7 +1746,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/bulk-delete": {
@@ -2110,7 +1802,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}/{user_id}": {
@@ -2168,7 +1860,7 @@
           "User",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}": {
@@ -2245,7 +1937,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_all_message_reactions_by_emoji",
@@ -2265,7 +1957,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}/reactions": {
@@ -2305,7 +1997,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}/crosspost": {
@@ -2352,7 +2044,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}/threads": {
@@ -2410,7 +2102,7 @@
           "Thread",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/webhooks/{webhook_id}/{webhook_token}/messages/@original": {
@@ -2469,7 +2161,7 @@
           "Webhook",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_original_webhook_message",
@@ -2500,7 +2192,7 @@
           "Webhook",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_original_webhook_message",
@@ -2607,7 +2299,7 @@
           "Webhook",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/users": {
@@ -2693,7 +2385,7 @@
           "Guild",
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/auto-moderation/rules/{rule_id}": {
@@ -2756,7 +2448,7 @@
         "tags": [
           "AutoMod"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_auto_moderation_rule",
@@ -2776,7 +2468,7 @@
         "tags": [
           "AutoMod"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_auto_moderation_rule",
@@ -2843,7 +2535,7 @@
         "tags": [
           "AutoMod"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/auto-moderation/rules": {
@@ -2907,7 +2599,7 @@
         "tags": [
           "AutoMod"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_auto_moderation_rule",
@@ -2973,7 +2665,7 @@
         "tags": [
           "AutoMod"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/voice-states/@me": {
@@ -3040,7 +2732,7 @@
         "tags": [
           "Voice"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/members/search": {
@@ -3104,7 +2796,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/threads/active": {
@@ -3144,7 +2836,7 @@
           "Guild",
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/members/@me": {
@@ -3202,7 +2894,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/members/{user_id}/roles/{role_id}": {
@@ -3250,7 +2942,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_member_role",
@@ -3270,7 +2962,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/@me/guilds/{guild_id}": {
@@ -3302,7 +2994,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/commands/{command_id}": {
@@ -3354,7 +3046,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_application_command",
@@ -3379,7 +3071,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_application_command",
@@ -3387,103 +3079,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "minLength": 1,
-                    "maxLength": 32
-                  },
-                  "name_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 32
-                    },
-                    "maxProperties": 33
-                  },
-                  "description": {
-                    "type": [
-                      "string",
-                      "null"
-                    ],
-                    "maxLength": 100
-                  },
-                  "description_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 100
-                    },
-                    "maxProperties": 33
-                  },
-                  "options": {
-                    "type": [
-                      "array",
-                      "null"
-                    ],
-                    "items": {
-                      "oneOf": [
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandChannelOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandNumberOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandRoleOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandStringOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandUserOption"
-                        }
-                      ]
-                    },
-                    "maxItems": 25
-                  },
-                  "default_member_permissions": {
-                    "type": [
-                      "integer",
-                      "null"
-                    ],
-                    "minimum": 0,
-                    "maximum": 562949953421311
-                  },
-                  "dm_permission": {
-                    "type": [
-                      "boolean",
-                      "null"
-                    ]
-                  }
-                }
+                "$ref": "#/components/schemas/ApplicationCommandPatchRequestPartial"
               }
             }
           },
@@ -3517,7 +3113,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}/commands": {
@@ -3576,7 +3172,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "bulk_set_application_commands",
@@ -3584,123 +3180,14 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
+                "type": [
+                  "array",
+                  "null"
+                ],
                 "items": {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "oneOf": [
-                        {
-                          "type": "null"
-                        },
-                        {
-                          "$ref": "#/components/schemas/SnowflakeType"
-                        }
-                      ]
-                    },
-                    "name": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 32
-                    },
-                    "name_localizations": {
-                      "type": [
-                        "object",
-                        "null"
-                      ],
-                      "additionalProperties": {
-                        "type": "string",
-                        "minLength": 1,
-                        "maxLength": 32
-                      },
-                      "maxProperties": 33
-                    },
-                    "description": {
-                      "type": [
-                        "string",
-                        "null"
-                      ],
-                      "maxLength": 100
-                    },
-                    "description_localizations": {
-                      "type": [
-                        "object",
-                        "null"
-                      ],
-                      "additionalProperties": {
-                        "type": "string",
-                        "minLength": 1,
-                        "maxLength": 100
-                      },
-                      "maxProperties": 33
-                    },
-                    "options": {
-                      "type": [
-                        "array",
-                        "null"
-                      ],
-                      "items": {
-                        "oneOf": [
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandChannelOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandNumberOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandRoleOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandStringOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
-                          },
-                          {
-                            "$ref": "#/components/schemas/ApplicationCommandUserOption"
-                          }
-                        ]
-                      },
-                      "maxItems": 25
-                    },
-                    "default_member_permissions": {
-                      "type": [
-                        "integer",
-                        "null"
-                      ],
-                      "minimum": 0,
-                      "maximum": 562949953421311
-                    },
-                    "dm_permission": {
-                      "type": [
-                        "boolean",
-                        "null"
-                      ]
-                    },
-                    "type": {
-                      "$ref": "#/components/schemas/ApplicationCommandApplicationCommandType"
-                    }
-                  },
-                  "required": [
-                    "name",
-                    "type"
-                  ]
-                }
+                  "$ref": "#/components/schemas/ApplicationCommandUpdateRequest"
+                },
+                "maxItems": 110
               }
             }
           },
@@ -3740,7 +3227,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_application_command",
@@ -3748,110 +3235,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "minLength": 1,
-                    "maxLength": 32
-                  },
-                  "name_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 32
-                    },
-                    "maxProperties": 33
-                  },
-                  "description": {
-                    "type": [
-                      "string",
-                      "null"
-                    ],
-                    "maxLength": 100
-                  },
-                  "description_localizations": {
-                    "type": [
-                      "object",
-                      "null"
-                    ],
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 100
-                    },
-                    "maxProperties": 33
-                  },
-                  "options": {
-                    "type": [
-                      "array",
-                      "null"
-                    ],
-                    "items": {
-                      "oneOf": [
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandChannelOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandNumberOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandRoleOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandStringOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
-                        },
-                        {
-                          "$ref": "#/components/schemas/ApplicationCommandUserOption"
-                        }
-                      ]
-                    },
-                    "maxItems": 25
-                  },
-                  "default_member_permissions": {
-                    "type": [
-                      "integer",
-                      "null"
-                    ],
-                    "minimum": 0,
-                    "maximum": 562949953421311
-                  },
-                  "dm_permission": {
-                    "type": [
-                      "boolean",
-                      "null"
-                    ]
-                  },
-                  "type": {
-                    "$ref": "#/components/schemas/ApplicationCommandApplicationCommandType"
-                  }
-                },
-                "required": [
-                  "name",
-                  "type"
-                ]
+                "$ref": "#/components/schemas/ApplicationCommandCreateRequest"
               }
             }
           },
@@ -3895,7 +3279,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/interactions/{interaction_id}/{interaction_token}/callback": {
@@ -4008,7 +3392,7 @@
         "tags": [
           "Interaction"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/thread-members/{user_id}": {
@@ -4064,7 +3448,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "add_thread_member",
@@ -4084,7 +3468,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_thread_member",
@@ -4104,7 +3488,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/thread-members": {
@@ -4171,7 +3555,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/permissions/{overwrite_id}": {
@@ -4245,7 +3629,7 @@
         "tags": [
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_channel_permission_overwrite",
@@ -4265,7 +3649,7 @@
         "tags": [
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/recipients/{user_id}": {
@@ -4348,7 +3732,7 @@
         "tags": [
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_group_dm_user",
@@ -4368,7 +3752,7 @@
         "tags": [
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/followers": {
@@ -4425,7 +3809,7 @@
         "tags": [
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages/{message_id}": {
@@ -4472,7 +3856,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_message",
@@ -4492,7 +3876,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_message",
@@ -4588,7 +3972,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/messages": {
@@ -4665,7 +4049,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_message",
@@ -4761,7 +4145,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/webhooks": {
@@ -4817,7 +4201,7 @@
           "Channel",
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_webhook",
@@ -4871,7 +4255,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/invites": {
@@ -4928,7 +4312,7 @@
           "Channel",
           "Invite"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_channel_invite",
@@ -4988,7 +4372,7 @@
           "Channel",
           "Invite"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/threads": {
@@ -5071,7 +4455,7 @@
         "tags": [
           "Thread"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/typing": {
@@ -5113,7 +4497,7 @@
         "tags": [
           "Indicators"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/pins/{message_id}": {
@@ -5153,7 +4537,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "unpin_message",
@@ -5173,7 +4557,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}/pins": {
@@ -5218,7 +4602,7 @@
         "tags": [
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/webhooks/{webhook_id}/{webhook_token}/messages/{message_id}": {
@@ -5285,7 +4669,7 @@
           "Webhook",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_webhook_message",
@@ -5316,7 +4700,7 @@
           "Webhook",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_webhook_message",
@@ -5423,7 +4807,7 @@
           "Webhook",
           "Message"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/webhooks/{webhook_id}/{webhook_token}/github": {
@@ -5491,7 +4875,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/webhooks/{webhook_id}/{webhook_token}/slack": {
@@ -5579,7 +4963,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/templates/{code}": {
@@ -5620,7 +5004,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_from_template",
@@ -5674,7 +5058,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/new-member-welcome": {
@@ -5716,7 +5100,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}": {
@@ -5782,7 +5166,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_scheduled_event",
@@ -5802,7 +5186,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_scheduled_event",
@@ -5860,7 +5244,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/scheduled-events": {
@@ -5924,7 +5308,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_scheduled_event",
@@ -5981,7 +5365,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/welcome-screen": {
@@ -6020,7 +5404,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_welcome_screen",
@@ -6057,7 +5441,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/voice-states/{user_id}": {
@@ -6125,7 +5509,7 @@
         "tags": [
           "Voice"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/integrations/{integration_id}": {
@@ -6165,7 +5549,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/integrations": {
@@ -6220,7 +5604,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/widget.json": {
@@ -6260,7 +5644,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/onboarding": {
@@ -6299,7 +5683,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "put_guilds_onboarding",
@@ -6336,7 +5720,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/vanity-url": {
@@ -6375,7 +5759,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/audit-logs": {
@@ -6394,6 +5778,13 @@
         "parameters": [
           {
             "name": "user_id",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/SnowflakeType"
+            }
+          },
+          {
+            "name": "target_id",
             "in": "query",
             "schema": {
               "$ref": "#/components/schemas/SnowflakeType"
@@ -6453,7 +5844,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/widget.png": {
@@ -6503,7 +5894,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/templates/{code}": {
@@ -6551,7 +5942,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_template",
@@ -6578,7 +5969,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_template",
@@ -6629,7 +6020,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/templates": {
@@ -6674,7 +6065,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_template",
@@ -6728,7 +6119,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/stickers/{sticker_id}": {
@@ -6776,7 +6167,7 @@
           "Guild",
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_sticker",
@@ -6797,7 +6188,7 @@
           "Guild",
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_sticker",
@@ -6854,7 +6245,78 @@
           "Guild",
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
+      }
+    },
+    "/guilds/{guild_id}/bulk-ban": {
+      "parameters": [
+        {
+          "name": "guild_id",
+          "in": "path",
+          "schema": {
+            "$ref": "#/components/schemas/SnowflakeType"
+          },
+          "required": true
+        }
+      ],
+      "post": {
+        "operationId": "bulk_ban_users_from_guild",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "user_ids": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/SnowflakeType"
+                    },
+                    "maxItems": 200,
+                    "uniqueItems": true
+                  },
+                  "delete_message_seconds": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 604800
+                  }
+                },
+                "required": [
+                  "user_ids"
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "200 response for bulk_ban_users_from_guild",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BulkBanUsersResponse"
+                }
+              }
+            }
+          },
+          "4XX": {
+            "$ref": "#/components/responses/ClientErrorResponse"
+          }
+        },
+        "security": [
+          {
+            "BotToken": []
+          }
+        ],
+        "tags": [
+          "Guild",
+          "User"
+        ],
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/stickers": {
@@ -6897,7 +6359,7 @@
           "Guild",
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_sticker",
@@ -6963,7 +6425,7 @@
           "Guild",
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/webhooks": {
@@ -7019,7 +6481,7 @@
           "Guild",
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/channels": {
@@ -7078,7 +6540,7 @@
           "Guild",
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_channel",
@@ -7116,7 +6578,7 @@
           "Guild",
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "bulk_update_guild_channels",
@@ -7179,7 +6641,7 @@
           "Guild",
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/members/{user_id}": {
@@ -7226,7 +6688,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "add_guild_member",
@@ -7318,7 +6780,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_member",
@@ -7338,7 +6800,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_member",
@@ -7440,7 +6902,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/members": {
@@ -7501,7 +6963,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/preview": {
@@ -7540,7 +7002,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/invites": {
@@ -7597,7 +7059,7 @@
           "Guild",
           "Invite"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/regions": {
@@ -7643,7 +7105,7 @@
           "Guild",
           "Voice"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/emojis/{emoji_id}": {
@@ -7690,7 +7152,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild_emoji",
@@ -7710,7 +7172,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_emoji",
@@ -7772,7 +7234,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/emojis": {
@@ -7817,7 +7279,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_emoji",
@@ -7887,7 +7349,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/widget": {
@@ -7926,7 +7388,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_widget_settings",
@@ -7981,7 +7443,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/roles/{role_id}": {
@@ -8021,7 +7483,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild_role",
@@ -8107,7 +7569,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/roles": {
@@ -8149,7 +7611,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "create_guild_role",
@@ -8235,7 +7697,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "bulk_update_guild_roles",
@@ -8297,7 +7759,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/prune": {
@@ -8373,7 +7835,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "prune_guild",
@@ -8451,7 +7913,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/bans/{user_id}": {
@@ -8498,7 +7960,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "put": {
         "operationId": "ban_user_from_guild",
@@ -8547,7 +8009,7 @@
           "Guild",
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "unban_user_from_guild",
@@ -8568,7 +8030,7 @@
           "Guild",
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/bans": {
@@ -8638,7 +8100,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}/mfa": {
@@ -8695,7 +8157,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/stage-instances/{channel_id}": {
@@ -8734,7 +8196,7 @@
         "tags": [
           "Stage"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_stage_instance",
@@ -8754,7 +8216,7 @@
         "tags": [
           "Stage"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_stage_instance",
@@ -8801,7 +8263,7 @@
         "tags": [
           "Stage"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/applications/{application_id}": {
@@ -8840,7 +8302,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_application",
@@ -8877,7 +8339,7 @@
         "tags": [
           "Application"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/webhooks/{webhook_id}/{webhook_token}": {
@@ -8936,7 +8398,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "post": {
         "operationId": "execute_webhook",
@@ -9027,7 +8489,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_webhook_by_token",
@@ -9048,7 +8510,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_webhook_by_token",
@@ -9110,7 +8572,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/stickers/{sticker_id}": {
@@ -9156,7 +8618,7 @@
         "tags": [
           "Sticker"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/webhooks/{webhook_id}": {
@@ -9205,7 +8667,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_webhook",
@@ -9225,7 +8687,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_webhook",
@@ -9296,7 +8758,7 @@
         "tags": [
           "Webhook"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/channels/{channel_id}": {
@@ -9348,7 +8810,7 @@
         "tags": [
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_channel",
@@ -9388,7 +8850,7 @@
         "tags": [
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_channel",
@@ -9449,7 +8911,7 @@
         "tags": [
           "Channel"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/invites/{code}": {
@@ -9517,7 +8979,7 @@
         "tags": [
           "Invite"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "invite_revoke",
@@ -9555,7 +9017,7 @@
         "tags": [
           "Invite"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/guilds/{guild_id}": {
@@ -9603,7 +9065,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "delete": {
         "operationId": "delete_guild",
@@ -9623,7 +9085,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       },
       "patch": {
         "operationId": "update_guild",
@@ -9660,7 +9122,7 @@
         "tags": [
           "Guild"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     },
     "/users/{user_id}": {
@@ -9699,7 +9161,7 @@
         "tags": [
           "User"
         ],
-        "description": "Hello World! Change me in redocly.yaml"
+        "description": "Hello World! Change me in .yaml"
       }
     }
   },
@@ -9819,11 +9281,6 @@
           }
         ]
       },
-      "ApplicationCommandApplicationCommandType": {
-        "type": "integer",
-        "oneOf": [],
-        "format": "int32"
-      },
       "ApplicationCommandAttachmentOption": {
         "type": "object",
         "properties": {
@@ -9834,7 +9291,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -9854,7 +9311,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -9871,7 +9328,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -9896,7 +9353,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -9995,7 +9452,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10015,7 +9472,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -10032,7 +9489,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -10057,7 +9514,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10121,7 +9578,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10141,7 +9598,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -10158,7 +9615,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -10193,7 +9650,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10257,6 +9714,118 @@
           "description"
         ]
       },
+      "ApplicationCommandCreateRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32
+          },
+          "name_localizations": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32
+            },
+            "maxProperties": 34
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 100
+          },
+          "description_localizations": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "maxProperties": 34
+          },
+          "options": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandChannelOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandNumberOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandRoleOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandStringOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandUserOption"
+                }
+              ]
+            },
+            "maxItems": 25
+          },
+          "default_member_permissions": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 562949953421311
+          },
+          "dm_permission": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/ApplicationCommandType"
+              }
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ]
+      },
       "ApplicationCommandIntegerOption": {
         "type": "object",
         "properties": {
@@ -10267,7 +9836,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10287,7 +9856,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -10304,7 +9873,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -10365,7 +9934,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10464,7 +10033,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10484,7 +10053,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -10501,7 +10070,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -10526,7 +10095,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10590,7 +10159,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10610,7 +10179,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -10627,7 +10196,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -10682,7 +10251,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -10783,7 +10352,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "value": {
             "$ref": "#/components/schemas/Int53Type"
@@ -10842,7 +10411,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "value": {
             "type": "number",
@@ -10903,7 +10472,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "value": {
             "type": "string",
@@ -10945,7 +10514,7 @@
           "value"
         ]
       },
-      "ApplicationCommandOptionTypeScopeApplicationCommandOptionType": {
+      "ApplicationCommandOptionType": {
         "type": "integer",
         "oneOf": [
           {
@@ -11006,6 +10575,105 @@
         ],
         "format": "int32"
       },
+      "ApplicationCommandPatchRequestPartial": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32
+          },
+          "name_localizations": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32
+            },
+            "maxProperties": 34
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 100
+          },
+          "description_localizations": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "maxProperties": 34
+          },
+          "options": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandChannelOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandNumberOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandRoleOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandStringOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandUserOption"
+                }
+              ]
+            },
+            "maxItems": 25
+          },
+          "default_member_permissions": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 562949953421311
+          },
+          "dm_permission": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      },
       "ApplicationCommandPermission": {
         "type": "object",
         "properties": {
@@ -11065,7 +10733,7 @@
             ]
           },
           "type": {
-            "$ref": "#/components/schemas/ApplicationCommandApplicationCommandType"
+            "$ref": "#/components/schemas/ApplicationCommandType"
           },
           "name": {
             "type": "string"
@@ -11188,7 +10856,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11208,7 +10876,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -11225,7 +10893,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -11250,7 +10918,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11314,7 +10982,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11334,7 +11002,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -11351,7 +11019,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -11408,7 +11076,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11501,7 +11169,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11521,7 +11189,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -11538,7 +11206,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -11573,7 +11241,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11646,7 +11314,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11666,7 +11334,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -11683,7 +11351,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -11746,7 +11414,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11837,6 +11505,149 @@
           "description"
         ]
       },
+      "ApplicationCommandType": {
+        "type": "integer",
+        "oneOf": [
+          {
+            "title": "CHAT",
+            "description": "Slash commands; a text-based command that shows up when a user types /",
+            "const": 1
+          },
+          {
+            "title": "USER",
+            "description": "A UI-based command that shows up when you right click or tap on a user",
+            "const": 2
+          },
+          {
+            "title": "MESSAGE",
+            "description": "A UI-based command that shows up when you right click or tap on a message",
+            "const": 3
+          }
+        ],
+        "format": "int32"
+      },
+      "ApplicationCommandUpdateRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32
+          },
+          "name_localizations": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32
+            },
+            "maxProperties": 34
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 100
+          },
+          "description_localizations": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "maxProperties": 34
+          },
+          "options": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandAttachmentOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandBooleanOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandChannelOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandIntegerOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandMentionableOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandNumberOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandRoleOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandStringOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandSubcommandGroupOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandSubcommandOption"
+                },
+                {
+                  "$ref": "#/components/schemas/ApplicationCommandUserOption"
+                }
+              ]
+            },
+            "maxItems": 25
+          },
+          "default_member_permissions": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 562949953421311
+          },
+          "dm_permission": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/ApplicationCommandType"
+              }
+            ]
+          },
+          "id": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/SnowflakeType"
+              }
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ]
+      },
       "ApplicationCommandUserOption": {
         "type": "object",
         "properties": {
@@ -11847,7 +11658,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11867,7 +11678,7 @@
               "minLength": 1,
               "maxLength": 32
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "description": {
             "type": "string",
@@ -11884,7 +11695,7 @@
               "minLength": 1,
               "maxLength": 100
             },
-            "maxProperties": 33
+            "maxProperties": 34
           },
           "required": {
             "type": [
@@ -11909,7 +11720,7 @@
             ],
             "allOf": [
               {
-                "$ref": "#/components/schemas/ApplicationCommandOptionTypeScopeApplicationCommandOptionType"
+                "$ref": "#/components/schemas/ApplicationCommandOptionType"
               }
             ],
             "format": "int32"
@@ -11974,7 +11785,7 @@
             "properties": {
               "default": {
                 "type": "string",
-                "maxLength": 2048
+                "maxLength": 400
               },
               "localizations": {
                 "type": [
@@ -11983,7 +11794,7 @@
                 ],
                 "additionalProperties": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 400
                 }
               }
             },
@@ -12073,7 +11884,7 @@
                 "type": "null"
               },
               {
-                "$ref": "#/components/schemas/ApplicationOAuth2Params"
+                "$ref": "#/components/schemas/ApplicationOAuth2InstallParams"
               }
             ]
           },
@@ -12161,7 +11972,7 @@
           "type"
         ]
       },
-      "ApplicationOAuth2Params": {
+      "ApplicationOAuth2InstallParams": {
         "type": "object",
         "properties": {
           "scopes": {
@@ -12194,7 +12005,7 @@
           }
         }
       },
-      "ApplicationOAuth2ParamsResponse": {
+      "ApplicationOAuth2InstallParamsResponse": {
         "type": "object",
         "properties": {
           "scopes": {
@@ -12343,7 +12154,7 @@
                 "type": "null"
               },
               {
-                "$ref": "#/components/schemas/ApplicationOAuth2ParamsResponse"
+                "$ref": "#/components/schemas/ApplicationOAuth2InstallParamsResponse"
               }
             ]
           },
@@ -13020,6 +12831,11 @@
             "const": "en-US"
           },
           {
+            "title": "es-419",
+            "description": "The es-419 locale",
+            "const": "es-419"
+          },
+          {
             "title": "es-ES",
             "description": "The es-ES locale",
             "const": "es-ES"
@@ -13534,6 +13350,16 @@
               }
             ]
           },
+          "purchase_notification": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/PurchaseNotificationResponse"
+              }
+            ]
+          },
           "position": {
             "type": [
               "integer",
@@ -13665,6 +13491,27 @@
         },
         "required": [
           "username"
+        ]
+      },
+      "BulkBanUsersResponse": {
+        "type": "object",
+        "properties": {
+          "banned_users": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SnowflakeType"
+            }
+          },
+          "failed_users": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SnowflakeType"
+            }
+          }
+        },
+        "required": [
+          "banned_users",
+          "failed_users"
         ]
       },
       "Button": {
@@ -14186,6 +14033,10 @@
             "const": "battlenet"
           },
           {
+            "title": "BUNGIE",
+            "const": "bungie"
+          },
+          {
             "title": "EBAY",
             "const": "ebay"
           },
@@ -14224,6 +14075,10 @@
           {
             "title": "RIOT_GAMES",
             "const": "riotgames"
+          },
+          {
+            "title": "ROBLOX",
+            "const": "roblox"
           },
           {
             "title": "SKYPE",
@@ -14581,7 +14436,7 @@
               "null"
             ],
             "minimum": 0,
-            "maximum": 2592000
+            "maximum": 604800
           },
           "temporary": {
             "type": [
@@ -16120,9 +15975,6 @@
               }
             ]
           },
-          "auto_start": {
-            "type": "boolean"
-          },
           "entity_metadata": {
             "$ref": "#/components/schemas/EntityMetadataExternalResponse"
           }
@@ -16135,7 +15987,6 @@
           "status",
           "entity_type",
           "privacy_level",
-          "auto_start",
           "entity_metadata"
         ]
       },
@@ -16321,6 +16172,13 @@
             ],
             "format": "date-time"
           },
+          "friends_count": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "format": "int32"
+          },
           "channel": {
             "oneOf": [
               {
@@ -16336,13 +16194,6 @@
               "boolean",
               "null"
             ]
-          },
-          "friends_count": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "format": "int32"
           },
           "uses": {
             "type": [
@@ -17428,18 +17279,18 @@
       "GuildCreateRequest": {
         "type": "object",
         "properties": {
-          "name": {
-            "type": "string",
-            "minLength": 2,
-            "maxLength": 100
-          },
           "description": {
             "type": [
               "string",
               "null"
             ],
             "minLength": 0,
-            "maxLength": 1024
+            "maxLength": 120
+          },
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 100
           },
           "region": {
             "type": [
@@ -18084,6 +17935,16 @@
               "null"
             ]
           },
+          "avatar_decoration_data": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/UserAvatarDecorationResponse"
+              }
+            ]
+          },
           "communication_disabled_until": {
             "type": [
               "string",
@@ -18224,7 +18085,7 @@
               "null"
             ],
             "minLength": 0,
-            "maxLength": 1024
+            "maxLength": 120
           },
           "region": {
             "type": [
@@ -18474,6 +18335,21 @@
           "approximate_presence_count",
           "emojis",
           "stickers"
+        ]
+      },
+      "GuildProductPurchaseResponse": {
+        "type": "object",
+        "properties": {
+          "listing_id": {
+            "$ref": "#/components/schemas/SnowflakeType"
+          },
+          "product_name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "listing_id",
+          "product_name"
         ]
       },
       "GuildPruneResponse": {
@@ -20577,7 +20453,7 @@
                 "type": "null"
               },
               {
-                "$ref": "#/components/schemas/ApplicationOAuth2ParamsResponse"
+                "$ref": "#/components/schemas/ApplicationOAuth2InstallParamsResponse"
               }
             ]
           },
@@ -21953,6 +21829,38 @@
               "boolean",
               "null"
             ]
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "application": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/ApplicationResponse"
+              }
+            ]
+          },
+          "clip_created_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "clip_participants": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/components/schemas/UserResponse"
+            }
           }
         },
         "required": [
@@ -22818,6 +22726,22 @@
                 "$ref": "#/components/schemas/UInt32Type"
               }
             ]
+          },
+          "placeholder": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "placeholder_version": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/UInt32Type"
+              }
+            ]
           }
         }
       },
@@ -22979,6 +22903,22 @@
             ]
           },
           "height": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/UInt32Type"
+              }
+            ]
+          },
+          "placeholder": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "placeholder_version": {
             "oneOf": [
               {
                 "type": "null"
@@ -23392,6 +23332,16 @@
               },
               {
                 "$ref": "#/components/schemas/MessageRoleSubscriptionDataResponse"
+              }
+            ]
+          },
+          "purchase_notification": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/PurchaseNotificationResponse"
               }
             ]
           },
@@ -24543,7 +24493,7 @@
                 "type": "null"
               },
               {
-                "$ref": "#/components/schemas/ApplicationOAuth2ParamsResponse"
+                "$ref": "#/components/schemas/ApplicationOAuth2InstallParamsResponse"
               }
             ]
           },
@@ -24799,6 +24749,16 @@
               "null"
             ]
           },
+          "avatar_decoration_data": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/UserAvatarDecorationResponse"
+              }
+            ]
+          },
           "communication_disabled_until": {
             "type": [
               "string",
@@ -24862,6 +24822,32 @@
           "mute",
           "deaf"
         ]
+      },
+      "PurchaseNotificationResponse": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "$ref": "#/components/schemas/PurchaseType"
+          },
+          "guild_product_purchase": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/GuildProductPurchaseResponse"
+              }
+            ]
+          }
+        },
+        "required": [
+          "type"
+        ]
+      },
+      "PurchaseType": {
+        "type": "integer",
+        "oneOf": [],
+        "format": "int32"
       },
       "QuarantineUserAction": {
         "type": "object",
@@ -25140,7 +25126,7 @@
             "items": {
               "$ref": "#/components/schemas/RichEmbedField"
             },
-            "maxItems": 1521
+            "maxItems": 25
           },
           "provider": {
             "oneOf": [
@@ -25257,6 +25243,21 @@
               "integer",
               "null"
             ]
+          },
+          "placeholder": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 64
+          },
+          "placeholder_version": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 2147483647
           }
         }
       },
@@ -25302,6 +25303,21 @@
               "integer",
               "null"
             ]
+          },
+          "placeholder": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 64
+          },
+          "placeholder_version": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 2147483647
           }
         }
       },
@@ -25327,6 +25343,21 @@
               "integer",
               "null"
             ]
+          },
+          "placeholder": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 64
+          },
+          "placeholder_version": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 2147483647
           }
         }
       },
@@ -25509,9 +25540,6 @@
                 "$ref": "#/components/schemas/ScheduledEventUserResponse"
               }
             ]
-          },
-          "auto_start": {
-            "type": "boolean"
           }
         },
         "required": [
@@ -25521,8 +25549,7 @@
           "scheduled_start_time",
           "status",
           "entity_type",
-          "privacy_level",
-          "auto_start"
+          "privacy_level"
         ]
       },
       "ScheduledEventUserResponse": {
@@ -26136,9 +26163,6 @@
               }
             ]
           },
-          "auto_start": {
-            "type": "boolean"
-          },
           "entity_metadata": {
             "oneOf": [
               {
@@ -26157,8 +26181,7 @@
           "scheduled_start_time",
           "status",
           "entity_type",
-          "privacy_level",
-          "auto_start"
+          "privacy_level"
         ]
       },
       "StandardStickerResponse": {
@@ -26975,14 +26998,7 @@
               "null"
             ],
             "items": {
-              "oneOf": [
-                {
-                  "type": "null"
-                },
-                {
-                  "$ref": "#/components/schemas/UpdateThreadTagRequest"
-                }
-              ]
+              "$ref": "#/components/schemas/UpdateThreadTagRequest"
             },
             "maxItems": 20
           }
@@ -27258,6 +27274,10 @@
           "name"
         ]
       },
+      "UserAvatarDecorationResponse": {
+        "type": "object",
+        "properties": {}
+      },
       "UserCommunicationDisabledAction": {
         "type": "object",
         "properties": {
@@ -27286,14 +27306,14 @@
         "type": "object",
         "properties": {
           "duration_seconds": {
-            "type": "integer",
+            "type": [
+              "integer",
+              "null"
+            ],
             "minimum": 0,
             "maximum": 2419200
           }
-        },
-        "required": [
-          "duration_seconds"
-        ]
+        }
       },
       "UserCommunicationDisabledActionMetadataResponse": {
         "type": "object",
@@ -27399,6 +27419,16 @@
             "type": "integer",
             "format": "int32"
           },
+          "premium_type": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/PremiumTypes"
+              }
+            ]
+          },
           "flags": {
             "$ref": "#/components/schemas/Int53Type"
           },
@@ -27427,21 +27457,17 @@
             ],
             "format": "int32"
           },
+          "global_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "mfa_enabled": {
             "type": "boolean"
           },
           "locale": {
             "$ref": "#/components/schemas/AvailableLocalesEnum"
-          },
-          "premium_type": {
-            "oneOf": [
-              {
-                "type": "null"
-              },
-              {
-                "$ref": "#/components/schemas/PremiumTypes"
-              }
-            ]
           },
           "email": {
             "type": [
@@ -27488,6 +27514,16 @@
             "type": "integer",
             "format": "int32"
           },
+          "premium_type": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/PremiumTypes"
+              }
+            ]
+          },
           "flags": {
             "$ref": "#/components/schemas/Int53Type"
           },
@@ -27515,6 +27551,12 @@
               "null"
             ],
             "format": "int32"
+          },
+          "global_name": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         },
         "required": [
@@ -27993,9 +28035,6 @@
               }
             ]
           },
-          "auto_start": {
-            "type": "boolean"
-          },
           "entity_metadata": {
             "oneOf": [
               {
@@ -28014,8 +28053,7 @@
           "scheduled_start_time",
           "status",
           "entity_type",
-          "privacy_level",
-          "auto_start"
+          "privacy_level"
         ]
       },
       "WebhookSlackEmbed": {
