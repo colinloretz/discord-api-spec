@@ -1,0 +1,1 @@
+Create a new [webhook](https://discord.com/developers/docs/resources/webhook#webhook-object) for the channel

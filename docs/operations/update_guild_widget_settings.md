@@ -1,0 +1,1 @@
+Update the [widget settings](https://discord.com/developers/docs/resources/guild#guild-widget-settings-object) for a guild

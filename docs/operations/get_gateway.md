@@ -1,0 +1,1 @@
+Retrieve a valid `wss` URL that can be used when establishing a [Gateway connection](https://discord.com/developers/docs/topics/gateway#connections)

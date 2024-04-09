@@ -1,0 +1,1 @@
+Retrieve the initial interaction response

@@ -1,0 +1,1 @@
+Update [role connection metadata](https://discord.com/developers/docs/resources/application-role-connection-metadata#application-role-connection-metadata-object) for the app

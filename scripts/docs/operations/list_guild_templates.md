@@ -1,0 +1,1 @@
+List [guild templates](https://discord.com/developers/docs/resources/guild-template#guild-template-object) for a guild

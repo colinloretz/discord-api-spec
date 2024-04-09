@@ -1,0 +1,1 @@
+Update settings for a [guild](https://discord.com/developers/docs/resources/guild#guild-object)

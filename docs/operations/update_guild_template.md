@@ -1,0 +1,1 @@
+Edit the metadata for a guild template

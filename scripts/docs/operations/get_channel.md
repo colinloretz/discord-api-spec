@@ -1,0 +1,1 @@
+Retrieves a [channel](https://discord.com/developers/docs/resources/channel#channel-object)

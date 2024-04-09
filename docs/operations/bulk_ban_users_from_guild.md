@@ -1,0 +1,1 @@
+Ban a list of up to 200 users from a guild, and optionally delete messages recently sent by the banned users

@@ -1,0 +1,1 @@
+List [integrations](https://discord.com/developers/docs/resources/guild#integration-object) in a guild

@@ -1,0 +1,1 @@
+Ban a user from a guild, and optionally delete messages recently sent by them

@@ -1,0 +1,1 @@
+List the user's joined private threads ([type](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) of `PRIVATE_THREAD`) that are archived in the given channel 

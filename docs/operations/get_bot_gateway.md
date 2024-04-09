@@ -1,0 +1,1 @@
+Retrieve [Gateway connection information](https://discord.com/developers/docs/topics/gateway#get-gateway-bot-json-response) for the requesting bot user

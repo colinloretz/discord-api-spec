@@ -1,0 +1,1 @@
+Update a sticker's metadata in a guild

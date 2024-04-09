@@ -1,0 +1,1 @@
+List [voice regions](https://discord.com/developers/docs/resources/voice#voice-region-object) for a guild

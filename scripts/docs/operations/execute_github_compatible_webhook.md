@@ -1,0 +1,1 @@
+Execute a [Github webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks), using this endpoint as the "Payload URL"

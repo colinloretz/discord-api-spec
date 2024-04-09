@@ -1,0 +1,1 @@
+Update an emoji's metadata in a guild

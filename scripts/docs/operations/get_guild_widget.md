@@ -1,0 +1,1 @@
+Retrieve the [widget](https://discord.com/developers/docs/resources/guild#guild-widget-object) for a guild

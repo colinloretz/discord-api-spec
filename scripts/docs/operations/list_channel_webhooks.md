@@ -1,0 +1,1 @@
+List a channel's [webhooks](https://discord.com/developers/docs/resources/webhook#webhook-object)

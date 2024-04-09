@@ -1,0 +1,1 @@
+Update the [command permissions](https://discord.com/developers/docs/interactions/application-commands#application-command-permissions-object-guild-application-command-permissions-structure) for a command in the guild

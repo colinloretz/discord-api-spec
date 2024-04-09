@@ -1,0 +1,1 @@
+Delete a message that was created by the webhook

@@ -1,0 +1,1 @@
+Retrieve [ban](https://discord.com/developers/docs/resources/guild#ban-object) details for a user

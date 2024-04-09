@@ -1,0 +1,1 @@
+Lists [users](https://discord.com/developers/docs/resources/user#user-object) that reacted to the message with a given emoji

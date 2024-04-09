@@ -1,0 +1,1 @@
+List [messages](https://discord.com/developers/docs/resources/channel#message-object) in the channel

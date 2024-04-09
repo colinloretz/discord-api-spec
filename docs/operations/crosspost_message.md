@@ -1,0 +1,1 @@
+Publish a message in an announcement channel to all following channels

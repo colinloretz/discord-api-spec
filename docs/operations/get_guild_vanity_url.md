@@ -1,0 +1,1 @@
+Retrieves a partial [invite](https://discord.com/developers/docs/resources/invite#invite-object) object with the custom invite link for a guild

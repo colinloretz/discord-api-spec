@@ -1,0 +1,1 @@
+Retrieve an [invite](https://discord.com/developers/docs/resources/invite#invite-object)

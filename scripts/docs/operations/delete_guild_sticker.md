@@ -1,0 +1,1 @@
+Delete a sticker in a guild

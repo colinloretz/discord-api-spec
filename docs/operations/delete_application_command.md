@@ -1,0 +1,1 @@
+Delete a global command for the app

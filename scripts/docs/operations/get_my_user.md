@@ -1,0 +1,1 @@
+Retrieve details about the current [user](https://discord.com/developers/docs/resources/user#user-object)

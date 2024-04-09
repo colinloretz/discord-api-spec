@@ -1,0 +1,1 @@
+Retrieve a global command for the app

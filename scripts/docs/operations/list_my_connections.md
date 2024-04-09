@@ -1,0 +1,1 @@
+List all [connections](https://discord.com/developers/docs/resources/user#connection-object) for the user

@@ -1,0 +1,1 @@
+Retrieve a [sticker](https://discord.com/developers/docs/resources/sticker#sticker-object)

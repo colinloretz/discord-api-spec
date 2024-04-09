@@ -1,0 +1,1 @@
+Retrieve a [user](https://discord.com/developers/docs/resources/user#user-object)

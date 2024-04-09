@@ -1,0 +1,1 @@
+Post a [message](https://discord.com/developers/docs/resources/channel#message-object) to a channel

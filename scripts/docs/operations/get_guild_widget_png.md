@@ -1,0 +1,1 @@
+Retrieves a PNG image widget for a guild

@@ -1,0 +1,1 @@
+List [webhooks](https://discord.com/developers/docs/resources/webhook#webhook-object) in a guild

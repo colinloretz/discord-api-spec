@@ -1,0 +1,1 @@
+Remove a reaction on the message for the user

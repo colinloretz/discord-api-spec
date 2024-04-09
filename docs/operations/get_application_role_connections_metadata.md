@@ -1,0 +1,1 @@
+List [role connection metadata](https://discord.com/developers/docs/resources/application-role-connection-metadata#application-role-connection-metadata-object) objects for the app

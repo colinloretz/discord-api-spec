@@ -1,0 +1,1 @@
+Get the instance associated with a stage channel, if it exists

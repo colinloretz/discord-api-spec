@@ -1,0 +1,1 @@
+Create a [channel](https://discord.com/developers/docs/resources/channel#channel-object) in a guild 

@@ -1,0 +1,1 @@
+Delete a role in a guild

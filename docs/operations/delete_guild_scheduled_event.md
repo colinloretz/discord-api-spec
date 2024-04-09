@@ -1,0 +1,1 @@
+Delete a scheduled event in the guild

@@ -1,0 +1,1 @@
+List all pinned [messages](https://discord.com/developers/docs/resources/channel#message-object) in a channel

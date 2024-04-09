@@ -1,0 +1,1 @@
+List public threads ([type](https://discord.com/developers/docs/resources/channel#channel-object-channel-types) of `PUBLIC_THREAD` or `ANNOUNCEMENT_THREAD`) that are archived in the channel 

@@ -1,0 +1,1 @@
+Retrieve the [thread member](https://discord.com/developers/docs/resources/channel#thread-member-object) object for a user, if they are a member of the thread

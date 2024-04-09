@@ -1,0 +1,1 @@
+Removes an [integration](https://discord.com/developers/docs/resources/guild#integration-object) from a guild and deletes any associated webhooks and bot users

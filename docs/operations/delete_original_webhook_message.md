@@ -1,0 +1,1 @@
+Delete the intial interaction response

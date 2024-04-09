@@ -1,0 +1,1 @@
+Post a 10-second typing indicator for the channel

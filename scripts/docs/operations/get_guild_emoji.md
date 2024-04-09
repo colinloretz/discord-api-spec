@@ -1,0 +1,1 @@
+Retrieve an [emoji](https://discord.com/developers/docs/resources/emoji#emoji-object) in a guild

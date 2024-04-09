@@ -1,0 +1,1 @@
+Retrieve details about the current authorization

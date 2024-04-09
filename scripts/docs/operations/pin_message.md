@@ -1,0 +1,1 @@
+Pin a message in the channel

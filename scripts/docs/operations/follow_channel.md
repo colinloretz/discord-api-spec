@@ -1,0 +1,1 @@
+Follow an announcement channel which sends its published messages to a target channel

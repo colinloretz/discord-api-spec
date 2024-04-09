@@ -1,0 +1,1 @@
+Overwrite the guild's existing guild [commands](https://discord.com/developers/docs/interactions/application-commands#application-command-object) for the app

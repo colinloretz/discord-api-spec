@@ -1,0 +1,1 @@
+List partial [guilds](https://discord.com/developers/docs/resources/guild#guild-object) where the user is a member

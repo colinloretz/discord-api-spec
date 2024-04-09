@@ -3,5 +3,3 @@
 👾👾👾👾👾👾👾👾👾👾👾👾👾👾👾👾👾👾
 
 This is being generated from the OpenAPI spec with OAS decorators.
-
-- 👋 Colin

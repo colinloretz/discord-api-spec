@@ -1,0 +1,1 @@
+List user [bans](https://discord.com/developers/docs/resources/guild#ban-object) for a guild

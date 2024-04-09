@@ -2,12 +2,19 @@
   "name": "discord-api",
   "version": "0.0.1",
   "dependencies": {
-    "@redocly/cli": "^1.2.0"
+    "@redocly/cli": "^1.2.0",
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0"
   },
   "private": true,
   "scripts": {
     "start": "redocly preview-docs",
     "build": "redocly bundle -o dist",
-    "test": "redocly lint"
+    "test": "redocly lint",
+    "generate-operations": "node scripts/generate-operation-descriptions.js",
+    "generate-tags": "node scripts/generate-tag-mapping.js",
+    "redocly-up": "node scripts/generate-redocly-config.js"
   }
 }

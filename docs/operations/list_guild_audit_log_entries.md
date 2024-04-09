@@ -1,0 +1,1 @@
+List [audit log entires](https://discord.com/developers/docs/resources/audit-log#audit-log-object) for a guild

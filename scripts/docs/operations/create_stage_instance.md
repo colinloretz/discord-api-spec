@@ -1,0 +1,1 @@
+Create a [stage instance](https://discord.com/developers/docs/resources/stage-instance#stage-instance-object) associated with the stage channel

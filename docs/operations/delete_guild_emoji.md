@@ -1,0 +1,1 @@
+Delete an emoji from a guild

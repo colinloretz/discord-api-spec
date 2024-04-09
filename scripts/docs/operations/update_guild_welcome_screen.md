@@ -1,0 +1,1 @@
+Update the [welcome screen](https://discord.com/developers/docs/resources/guild#welcome-screen-object) properties and channels for a guild

@@ -1,0 +1,1 @@
+Retrieve the [guild member](https://discord.com/developers/docs/resources/guild#guild-member-object) object for the user

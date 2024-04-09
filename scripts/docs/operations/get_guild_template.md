@@ -1,0 +1,1 @@
+Retrieve a [guild template](https://discord.com/developers/docs/resources/guild-template#guild-template-object)

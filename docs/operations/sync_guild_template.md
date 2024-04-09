@@ -1,0 +1,1 @@
+Syncs a template to the guild's current state

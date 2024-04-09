@@ -1,0 +1,1 @@
+List all [AutoMod rules](https://discord.com/developers/docs/resources/auto-moderation#auto-moderation-rule-object) configured for the guild

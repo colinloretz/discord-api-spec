@@ -1,0 +1,1 @@
+Retrieve a [webhook](https://discord.com/developers/docs/resources/webhook#webhook-object)

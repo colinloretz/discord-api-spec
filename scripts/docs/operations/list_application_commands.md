@@ -1,0 +1,1 @@
+List all global [commands](https://discord.com/developers/docs/interactions/application-commands#application-command-object) for an app

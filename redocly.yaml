@@ -1,22 +1,198 @@
-# See https://redocly.com/docs/cli/configuration/ for more information.
-#
 plugins:
   - ./oas/plugins/add-discord-tags
-
 apis:
   discord:
     root: specs/openapi.json
     rules:
-      operation-4xx-response: off
+      operation-4xx-response: 'off'
     preprocessors:
-      add-discord-tags/setup-tags: on # This adds tags to the root schema
+      add-discord-tags/setup-tags: 'on'
     decorators:
-      add-discord-tags/add-tags: on # This decorates operations with tags
+      add-discord-tags/add-tags: 'on'
+      operation-description-override:
+        operationIds:
+          get_my_oauth2_application: ./docs/operations/get_my_oauth2_application.md
+          list_my_connections: ./docs/operations/list_my_connections.md
+          create_dm: ./docs/operations/create_dm.md
+          list_my_guilds: ./docs/operations/list_my_guilds.md
+          get_my_application: ./docs/operations/get_my_application.md
+          update_my_application: ./docs/operations/update_my_application.md
+          get_bot_gateway: ./docs/operations/get_bot_gateway.md
+          get_my_oauth2_authorization: ./docs/operations/get_my_oauth2_authorization.md
+          list_voice_regions: ./docs/operations/list_voice_regions.md
+          get_my_user: ./docs/operations/get_my_user.md
+          update_my_user: ./docs/operations/update_my_user.md
+          create_stage_instance: ./docs/operations/create_stage_instance.md
+          list_sticker_packs: ./docs/operations/list_sticker_packs.md
+          get_gateway: ./docs/operations/get_gateway.md
+          create_guild: ./docs/operations/create_guild.md
+          list_my_private_archived_threads: ./docs/operations/list_my_private_archived_threads.md
+          list_guild_application_command_permissions: ./docs/operations/list_guild_application_command_permissions.md
+          get_guild_application_command_permissions: ./docs/operations/get_guild_application_command_permissions.md
+          set_guild_application_command_permissions: ./docs/operations/set_guild_application_command_permissions.md
+          add_my_message_reaction: ./docs/operations/add_my_message_reaction.md
+          delete_my_message_reaction: ./docs/operations/delete_my_message_reaction.md
+          list_private_archived_threads: ./docs/operations/list_private_archived_threads.md
+          list_public_archived_threads: ./docs/operations/list_public_archived_threads.md
+          get_application_user_role_connection: ./docs/operations/get_application_user_role_connection.md
+          update_application_user_role_connection: ./docs/operations/update_application_user_role_connection.md
+          get_my_guild_member: ./docs/operations/get_my_guild_member.md
+          get_application_role_connections_metadata: ./docs/operations/get_application_role_connections_metadata.md
+          update_application_role_connections_metadata: ./docs/operations/update_application_role_connections_metadata.md
+          get_guild_application_command: ./docs/operations/get_guild_application_command.md
+          delete_guild_application_command: ./docs/operations/delete_guild_application_command.md
+          update_guild_application_command: ./docs/operations/update_guild_application_command.md
+          list_guild_application_commands: ./docs/operations/list_guild_application_commands.md
+          bulk_set_guild_application_commands: ./docs/operations/bulk_set_guild_application_commands.md
+          create_guild_application_command: ./docs/operations/create_guild_application_command.md
+          join_thread: ./docs/operations/join_thread.md
+          leave_thread: ./docs/operations/leave_thread.md
+          bulk_delete_messages: ./docs/operations/bulk_delete_messages.md
+          delete_user_message_reaction: ./docs/operations/delete_user_message_reaction.md
+          list_message_reactions_by_emoji: ./docs/operations/list_message_reactions_by_emoji.md
+          delete_all_message_reactions_by_emoji: ./docs/operations/delete_all_message_reactions_by_emoji.md
+          delete_all_message_reactions: ./docs/operations/delete_all_message_reactions.md
+          crosspost_message: ./docs/operations/crosspost_message.md
+          create_thread_from_message: ./docs/operations/create_thread_from_message.md
+          get_original_webhook_message: ./docs/operations/get_original_webhook_message.md
+          delete_original_webhook_message: ./docs/operations/delete_original_webhook_message.md
+          update_original_webhook_message: ./docs/operations/update_original_webhook_message.md
+          list_guild_scheduled_event_users: ./docs/operations/list_guild_scheduled_event_users.md
+          get_auto_moderation_rule: ./docs/operations/get_auto_moderation_rule.md
+          delete_auto_moderation_rule: ./docs/operations/delete_auto_moderation_rule.md
+          update_auto_moderation_rule: ./docs/operations/update_auto_moderation_rule.md
+          list_auto_moderation_rules: ./docs/operations/list_auto_moderation_rules.md
+          create_auto_moderation_rule: ./docs/operations/create_auto_moderation_rule.md
+          update_self_voice_state: ./docs/operations/update_self_voice_state.md
+          search_guild_members: ./docs/operations/search_guild_members.md
+          get_active_guild_threads: ./docs/operations/get_active_guild_threads.md
+          update_my_guild_member: ./docs/operations/update_my_guild_member.md
+          add_guild_member_role: ./docs/operations/add_guild_member_role.md
+          delete_guild_member_role: ./docs/operations/delete_guild_member_role.md
+          leave_guild: ./docs/operations/leave_guild.md
+          get_application_command: ./docs/operations/get_application_command.md
+          delete_application_command: ./docs/operations/delete_application_command.md
+          update_application_command: ./docs/operations/update_application_command.md
+          list_application_commands: ./docs/operations/list_application_commands.md
+          bulk_set_application_commands: ./docs/operations/bulk_set_application_commands.md
+          create_application_command: ./docs/operations/create_application_command.md
+          create_interaction_response: ./docs/operations/create_interaction_response.md
+          get_thread_member: ./docs/operations/get_thread_member.md
+          add_thread_member: ./docs/operations/add_thread_member.md
+          delete_thread_member: ./docs/operations/delete_thread_member.md
+          list_thread_members: ./docs/operations/list_thread_members.md
+          set_channel_permission_overwrite: ./docs/operations/set_channel_permission_overwrite.md
+          delete_channel_permission_overwrite: ./docs/operations/delete_channel_permission_overwrite.md
+          add_group_dm_user: ./docs/operations/add_group_dm_user.md
+          delete_group_dm_user: ./docs/operations/delete_group_dm_user.md
+          follow_channel: ./docs/operations/follow_channel.md
+          get_message: ./docs/operations/get_message.md
+          delete_message: ./docs/operations/delete_message.md
+          update_message: ./docs/operations/update_message.md
+          list_messages: ./docs/operations/list_messages.md
+          create_message: ./docs/operations/create_message.md
+          list_channel_webhooks: ./docs/operations/list_channel_webhooks.md
+          create_webhook: ./docs/operations/create_webhook.md
+          list_channel_invites: ./docs/operations/list_channel_invites.md
+          create_channel_invite: ./docs/operations/create_channel_invite.md
+          create_thread: ./docs/operations/create_thread.md
+          trigger_typing_indicator: ./docs/operations/trigger_typing_indicator.md
+          pin_message: ./docs/operations/pin_message.md
+          unpin_message: ./docs/operations/unpin_message.md
+          list_pinned_messages: ./docs/operations/list_pinned_messages.md
+          get_webhook_message: ./docs/operations/get_webhook_message.md
+          delete_webhook_message: ./docs/operations/delete_webhook_message.md
+          update_webhook_message: ./docs/operations/update_webhook_message.md
+          execute_github_compatible_webhook: ./docs/operations/execute_github_compatible_webhook.md
+          execute_slack_compatible_webhook: ./docs/operations/execute_slack_compatible_webhook.md
+          get_guild_template: ./docs/operations/get_guild_template.md
+          create_guild_from_template: ./docs/operations/create_guild_from_template.md
+          get_guild_new_member_welcome: ./docs/operations/get_guild_new_member_welcome.md
+          get_guild_scheduled_event: ./docs/operations/get_guild_scheduled_event.md
+          delete_guild_scheduled_event: ./docs/operations/delete_guild_scheduled_event.md
+          update_guild_scheduled_event: ./docs/operations/update_guild_scheduled_event.md
+          list_guild_scheduled_events: ./docs/operations/list_guild_scheduled_events.md
+          create_guild_scheduled_event: ./docs/operations/create_guild_scheduled_event.md
+          get_guild_welcome_screen: ./docs/operations/get_guild_welcome_screen.md
+          update_guild_welcome_screen: ./docs/operations/update_guild_welcome_screen.md
+          update_voice_state: ./docs/operations/update_voice_state.md
+          delete_guild_integration: ./docs/operations/delete_guild_integration.md
+          list_guild_integrations: ./docs/operations/list_guild_integrations.md
+          get_guild_widget: ./docs/operations/get_guild_widget.md
+          get_guilds_onboarding: ./docs/operations/get_guilds_onboarding.md
+          put_guilds_onboarding: ./docs/operations/put_guilds_onboarding.md
+          get_guild_vanity_url: ./docs/operations/get_guild_vanity_url.md
+          list_guild_audit_log_entries: ./docs/operations/list_guild_audit_log_entries.md
+          get_guild_widget_png: ./docs/operations/get_guild_widget_png.md
+          sync_guild_template: ./docs/operations/sync_guild_template.md
+          delete_guild_template: ./docs/operations/delete_guild_template.md
+          update_guild_template: ./docs/operations/update_guild_template.md
+          list_guild_templates: ./docs/operations/list_guild_templates.md
+          create_guild_template: ./docs/operations/create_guild_template.md
+          get_guild_sticker: ./docs/operations/get_guild_sticker.md
+          delete_guild_sticker: ./docs/operations/delete_guild_sticker.md
+          update_guild_sticker: ./docs/operations/update_guild_sticker.md
+          bulk_ban_users_from_guild: ./docs/operations/bulk_ban_users_from_guild.md
+          list_guild_stickers: ./docs/operations/list_guild_stickers.md
+          create_guild_sticker: ./docs/operations/create_guild_sticker.md
+          get_guild_webhooks: ./docs/operations/get_guild_webhooks.md
+          list_guild_channels: ./docs/operations/list_guild_channels.md
+          create_guild_channel: ./docs/operations/create_guild_channel.md
+          bulk_update_guild_channels: ./docs/operations/bulk_update_guild_channels.md
+          get_guild_member: ./docs/operations/get_guild_member.md
+          add_guild_member: ./docs/operations/add_guild_member.md
+          delete_guild_member: ./docs/operations/delete_guild_member.md
+          update_guild_member: ./docs/operations/update_guild_member.md
+          list_guild_members: ./docs/operations/list_guild_members.md
+          get_guild_preview: ./docs/operations/get_guild_preview.md
+          list_guild_invites: ./docs/operations/list_guild_invites.md
+          list_guild_voice_regions: ./docs/operations/list_guild_voice_regions.md
+          get_guild_emoji: ./docs/operations/get_guild_emoji.md
+          delete_guild_emoji: ./docs/operations/delete_guild_emoji.md
+          update_guild_emoji: ./docs/operations/update_guild_emoji.md
+          list_guild_emojis: ./docs/operations/list_guild_emojis.md
+          create_guild_emoji: ./docs/operations/create_guild_emoji.md
+          get_guild_widget_settings: ./docs/operations/get_guild_widget_settings.md
+          update_guild_widget_settings: ./docs/operations/update_guild_widget_settings.md
+          delete_guild_role: ./docs/operations/delete_guild_role.md
+          update_guild_role: ./docs/operations/update_guild_role.md
+          list_guild_roles: ./docs/operations/list_guild_roles.md
+          create_guild_role: ./docs/operations/create_guild_role.md
+          bulk_update_guild_roles: ./docs/operations/bulk_update_guild_roles.md
+          preview_prune_guild: ./docs/operations/preview_prune_guild.md
+          prune_guild: ./docs/operations/prune_guild.md
+          get_guild_ban: ./docs/operations/get_guild_ban.md
+          ban_user_from_guild: ./docs/operations/ban_user_from_guild.md
+          unban_user_from_guild: ./docs/operations/unban_user_from_guild.md
+          list_guild_bans: ./docs/operations/list_guild_bans.md
+          set_guild_mfa_level: ./docs/operations/set_guild_mfa_level.md
+          get_stage_instance: ./docs/operations/get_stage_instance.md
+          delete_stage_instance: ./docs/operations/delete_stage_instance.md
+          update_stage_instance: ./docs/operations/update_stage_instance.md
+          get_application: ./docs/operations/get_application.md
+          update_application: ./docs/operations/update_application.md
+          get_webhook_by_token: ./docs/operations/get_webhook_by_token.md
+          execute_webhook: ./docs/operations/execute_webhook.md
+          delete_webhook_by_token: ./docs/operations/delete_webhook_by_token.md
+          update_webhook_by_token: ./docs/operations/update_webhook_by_token.md
+          get_sticker: ./docs/operations/get_sticker.md
+          get_webhook: ./docs/operations/get_webhook.md
+          delete_webhook: ./docs/operations/delete_webhook.md
+          update_webhook: ./docs/operations/update_webhook.md
+          get_channel: ./docs/operations/get_channel.md
+          delete_channel: ./docs/operations/delete_channel.md
+          update_channel: ./docs/operations/update_channel.md
+          invite_resolve: ./docs/operations/invite_resolve.md
+          invite_revoke: ./docs/operations/invite_revoke.md
+          get_guild: ./docs/operations/get_guild.md
+          delete_guild: ./docs/operations/delete_guild.md
+          update_guild: ./docs/operations/update_guild.md
+          get_user: ./docs/operations/get_user.md
   preview:
     root: specs/openapi_preview.json
     rules:
-      operation-4xx-response: off
+      operation-4xx-response: 'off'
     preprocessors:
-      add-discord-tags/setup-tags: on # This adds tags to the root schema
+      add-discord-tags/setup-tags: 'on'
     decorators:
-      add-discord-tags/add-tags: on # This decorates operations with tags
+      add-discord-tags/add-tags: 'on'

@@ -1,0 +1,1 @@
+Retrieves the [onboarding](https://discord.com/developers/docs/resources/guild#guild-onboarding-object) configuration for a guild

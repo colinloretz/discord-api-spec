@@ -1,0 +1,1 @@
+Update the positions of a set of [channels](https://discord.com/developers/docs/resources/channel#channel-object) in a guild

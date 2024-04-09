@@ -1,0 +1,1 @@
+Add a role to the [guild member](https://discord.com/developers/docs/resources/guild#guild-member-object)

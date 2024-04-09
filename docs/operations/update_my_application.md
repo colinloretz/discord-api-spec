@@ -1,0 +1,1 @@
+Update the app associated with the requesting bot user

@@ -1,0 +1,1 @@
+Retrieve a list of all guild [commands](https://discord.com/developers/docs/interactions/application-commands#application-command-object) for the app

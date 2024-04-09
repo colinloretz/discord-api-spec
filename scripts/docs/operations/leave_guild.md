@@ -1,0 +1,1 @@
+Leave a guild on behalf of the current user

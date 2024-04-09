@@ -1,0 +1,1 @@
+List the [command permission objects](https://discord.com/developers/docs/interactions/application-commands#application-command-permissions-object-guild-application-command-permissions-structure) for all of the app's commands in the guild

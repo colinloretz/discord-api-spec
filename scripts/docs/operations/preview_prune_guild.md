@@ -1,0 +1,1 @@
+Returns an object with a `pruned` key indicated the number of members that would be removed from a guild if it was pruned

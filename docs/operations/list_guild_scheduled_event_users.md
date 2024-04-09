@@ -1,0 +1,1 @@
+List [users subscribed](https://discord.com/developers/docs/resources/guild-scheduled-event#guild-scheduled-event-user-object) to a guild scheduled event

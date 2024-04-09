@@ -1,0 +1,1 @@
+Create a new guild based on a guild template

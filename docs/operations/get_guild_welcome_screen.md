@@ -1,0 +1,1 @@
+Retrieve the [welcome screen](https://discord.com/developers/docs/resources/guild#welcome-screen-object) for a guild

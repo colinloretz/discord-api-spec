@@ -1,0 +1,1 @@
+Add the current user to the thread

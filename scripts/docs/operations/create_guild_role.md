@@ -1,0 +1,1 @@
+Create a new [role](https://discord.com/developers/docs/topics/permissions#role-object) in a guild

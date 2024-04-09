@@ -1,0 +1,1 @@
+Retrieve an app's [role connection metadata](https://discord.com/developers/docs/resources/user#application-role-connection-object) for the user

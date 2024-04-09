@@ -1,0 +1,1 @@
+Retrieve an [AutoMod rule](https://discord.com/developers/docs/resources/auto-moderation#auto-moderation-rule-object)

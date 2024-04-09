@@ -1,0 +1,1 @@
+Updates properties of an existing stage instance

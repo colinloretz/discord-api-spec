@@ -1,0 +1,23 @@
+Tag,Tag Description
+Audit Log,View a list of administrative actions taken in a server
+Applications,Fetch information and manage applications
+Channels,"Manage channels, a container for messages, posts, and voice activity in Discord"
+Commands,"Configure and manage application commands, a user-invokable entry points for apps"
+Emoji,Configure custom emoji in a server
+Gateway,Fetch information about the Gateway API
+Guilds,Manage servers in Discord
+Guild Templates,"Create and manage snapshots of a server, including its channels, roles, permissions, and settings"
+Interactions,Handle and respond to interactions between an app and a user
+Invites,Manage unique codes to invite users to a server or channel
+Members,Manage users in a server
+Messages,"Manage, post, and pin messages in a channel"
+OAuth,Fetch authorization information
+Roles,Manage groups of users with defined permissions in a server
+Role Connections,"Configure role connection metadata, and set it for users"
+Scheduled Events,Manage scheduled events in a server
+Stages,Manage instances of a stage within a stage channel
+Stickers,Configure custom stickers in a server
+Threads,"Manage threads, a container in channels for sub-conversations about a topic or message"
+Users,Manage users in Discord
+Voice,Manage voice connection state for a user
+Webhooks,Configure automated messages sent to a channel when something happens in a 3rd party service

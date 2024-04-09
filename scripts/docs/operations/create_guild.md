@@ -1,0 +1,1 @@
+Create a new [guild](https://discord.com/developers/docs/resources/guild#guild-object)

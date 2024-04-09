@@ -1,0 +1,1 @@
+Retrieve a [guild](https://discord.com/developers/docs/resources/guild#guild-object)

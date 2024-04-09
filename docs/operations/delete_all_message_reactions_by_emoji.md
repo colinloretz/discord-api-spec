@@ -1,0 +1,1 @@
+Remove all reactions on the message for a given emoji

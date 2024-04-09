@@ -1,0 +1,1 @@
+List [voice region objects](https://discord.com/developers/docs/resources/voice#voice-region-object) that can be used when setting a voice or stage channel's `rtc_region`

@@ -1,0 +1,1 @@
+Delete a guild [command](https://discord.com/developers/docs/interactions/application-commands#application-command-object) for the app

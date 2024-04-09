@@ -1,0 +1,1 @@
+Delete a permission overwrite for a user or role in a channel

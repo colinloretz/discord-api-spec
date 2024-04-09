@@ -1,0 +1,1 @@
+List [invites](https://discord.com/developers/docs/resources/invite#invite-object) in a guild

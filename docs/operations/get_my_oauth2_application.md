@@ -1,0 +1,1 @@
+Retrieve the [app](https://discord.com/developers/docs/resources/application#application-object) associated with the requesting bot user

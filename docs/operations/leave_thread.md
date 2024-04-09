@@ -1,0 +1,1 @@
+Remove the current user from the thread

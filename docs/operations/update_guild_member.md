@@ -1,0 +1,1 @@
+Update member properties for a user in a guild

@@ -1,0 +1,1 @@
+List [stickers](https://discord.com/developers/docs/resources/sticker#sticker-object) in a guild

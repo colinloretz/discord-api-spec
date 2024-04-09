@@ -1,0 +1,1 @@
+List all [scheduled events](https://discord.com/developers/docs/resources/guild-scheduled-event#guild-scheduled-event-object) in the guild

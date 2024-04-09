@@ -1,0 +1,1 @@
+Retrieve a [preview](https://discord.com/developers/docs/resources/guild#guild-preview-object) object for a guild

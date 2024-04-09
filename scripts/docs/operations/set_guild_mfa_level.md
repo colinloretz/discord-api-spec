@@ -1,0 +1,1 @@
+Set the [MFA level](https://discord.com/developers/docs/resources/guild#ban-object) for a guild
